@@ -198,7 +198,7 @@ a:hover {
     color: #2d55c2;
 }
 
-.disabled {
+.current {
     cursor: default;
     text-decoration-style: wavy;
     pointer-events: none;
