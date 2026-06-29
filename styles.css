@@ -481,4 +481,12 @@ a:hover {
         padding-bottom: 6rem;
         width: 100%;
     }
+
+    .bio-title {
+        max-width: 100%;
+    }
+
+    .bio-description {
+        max-width: 100%;
+    }
 }
