@@ -424,3 +424,61 @@ a:hover {
 }
 
 /*Responsiveness*/
+
+@media (width <=680px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .intro {
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+
+    .cases {
+        gap: 3rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .case {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .bio {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .footer-content {
+        max-width: 960px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .showcase {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        gap: 2rem;
+        max-width: 960px;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .image-gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        max-width: 960px;
+        padding: 1rem;
+        padding-bottom: 6rem;
+        width: 100%;
+    }
+}
