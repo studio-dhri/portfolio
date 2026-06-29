@@ -240,6 +240,7 @@ a:hover {
     flex-direction: column;
     padding-left: 1rem;
     padding-right: 5rem;
+    width: 100%;
 }
 
 .hero-image {
@@ -406,8 +407,20 @@ a:hover {
 /*handmud.html*/
 
 .hero.handmud {
-    color: black;
-    background-color: #9c8424;
+    color: white;
+    background-color: black;
+}
+
+.image-and-description {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.image-description {
+    font-style: italic;
+    font-size: .9rem;
+    text-align: center;
 }
 
 /*Responsiveness*/
