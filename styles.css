@@ -489,4 +489,26 @@ a:hover {
     .bio-description {
         max-width: 100%;
     }
+
+    .hero-content {
+        padding-right: 1rem;
+    }
+
+    p {
+        text-wrap: wrap;
+    }
+
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        text-wrap: wrap;
+    }
+
+    .content-section {
+        margin-bottom: 2rem;
+    }
 }
